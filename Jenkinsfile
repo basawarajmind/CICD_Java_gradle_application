@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'pwd'
-                sh 'echo Dockerfile'
+                sh 'cat Dockerfile'
             }
         }
     }
